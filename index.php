@@ -7,15 +7,17 @@
   </head>
   <body>
     <?php
-    $scan = scandir('/home/quangb/ACS-PROJETS/');
+
+
+    $scan = scandir('/home/quangb/');
                   foreach($scan as $file)
                 {
-                    if (!is_dir("/home/quangb/ACS-PROJETS/'$file"))
+                    if (!is_dir("$file"))
                     {
-                        echo $file.'<br>';
+                      echo "<img src='images/folder.png'><a href='../home/quangb/$file/'>$file</a><br>";
                     }
                     else{
-                      echo $file.'<br>';
+                      echo "<img src='images/file.png'><a href='../home/quangb/$file/'>$file</a><br>";
                     }
                 }
     ?>
