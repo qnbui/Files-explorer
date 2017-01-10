@@ -7,15 +7,15 @@
   </head>
   <body>
     <?php
-    $scan = scandir('/home/quangb/');
+      $scan = scandir('/home/quangb/');
 
-  foreach($scan as $file)
-  {
-      if (is_dir("/home/quangb/$file"))
+      foreach($scan as $file)
       {
-          echo $file.'<br>';
+          if (is_dir("/home/quangb/$file"))
+          {
+              echo $file.'<br>';
+          }
       }
-  }
     ?>
   </body>
 </html>
