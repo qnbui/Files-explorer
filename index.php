@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>files explorer</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="boostrap.css">
   </head>
   <body>
     <?php
@@ -47,6 +48,10 @@
                   else{
                       echo "<img src='images/prev.png'><a href='index.php'>$folder</a><br>";
                   }
+                }
+
+                elseif ($folder == ".") {
+                  echo "<a href='index.php'><img src='images/home.png'>HOME</a><br>";
                 }
 
                 else {
