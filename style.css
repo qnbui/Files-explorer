@@ -1,8 +1,21 @@
 body{
   display: inline-block;
-  background-color: red;
+  background-color: white;
 }
 
 img{
   display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  background-color:
+}
+
+img folder{
+  height: 50%;
 }

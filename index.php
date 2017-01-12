@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>files explorer</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="boostrap.css">
+    <link rel="stylesheet" href="bootstrap.css">
   </head>
   <body>
     <?php
@@ -23,7 +23,8 @@
               if (isset($_GET['dossier'])) {
 
 
-              echo "<a download='$folder' href=http://quangb.marmier.codeur.online/".$_GET['dossier'].$folder."><img src='images/file.png'> $folder</a><br>";
+              echo "<a class'link' download='$folder' href=http://quangb.marmier.codeur.online/".$_GET['dossier'].$folder."><img src='images/file.png'> $folder</a><br>";
+
               }
 
             }
@@ -34,11 +35,11 @@
 
 
                   if (isset($_GET['dossier'])){
-                      echo "<img src='images/prev.png'><a href='index.php?dossier=".$_GET['dossier'].$folder."/'>$folder</a><br>";
+                      echo "<img src='images/prev.png'><a href='index.php?dossier=".$_GET['dossier'].$folder."/'>prev</a><br>";
                       }
 
                   else{
-                      echo "<img src='images/prev.png'><a href='index.php'>$folder</a><br>";
+                      echo "<img src='images/prev.png'><a href='index.php'>prev</a><br>";
                   }
                 }
 
