@@ -26,14 +26,6 @@
 
               }
 
-              else {
-                if (isset($_GET['dossier'])) {
-
-
-               echo "<a href='index.php?dossier='".$_GET['dossier']."'$folder/><img id='fich' src='images/file.png'>$folder</a><br>";
-
-              }
-            }
             }
 
             else {
