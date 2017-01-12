@@ -22,8 +22,8 @@
 
               if (isset($_GET['dossier'])) {
 
-               echo "<a href='index.php?dossier='".$_GET['dossier']."$folder/><img id='fich' src='images/file.png'>$folder</a><br>";
 
+              echo "<a download='$folder' href=http://quangb.marmier.codeur.online/".$_GET['dossier'].$folder."><img src='images/file.png'> $folder</a><br>";
               }
 
             }
