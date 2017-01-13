@@ -28,7 +28,7 @@
               if (isset($_GET['dossier'])) {
 
 
-                echo "<div id='explorer'><div class='col-md-2'><a download='$folder' href=http://quangb.marmier.codeur.online/".$_GET['dossier'].$folder."><img src='images/file1.png' id='file'> $folder</a><br></div></div>";
+                echo "<div id='explorer'><div class='col-md-3 col-xs-3 col-sm-3'><a download='$folder' href=http://quangb.marmier.codeur.online/".$_GET['dossier'].$folder."><img src='images/file1.png' id='file'> $folder</a><br></div></div>";
 
              }
 
@@ -40,25 +40,25 @@
 
 
                   if (isset($_GET['dossier'])){
-                      echo "<div id='explorer'><div class='col-md-1 col-xs-2 col-sm-2'><img src='images/prev.png' id='prev'><a href='index.php?dossier=".$_GET['dossier'].$folder."/'>prev</a><br></div></div>";
+                      echo "<div id='explorer'><div class='col-md-3 col-xs-3 col-sm-3'><img src='images/prev.png' id='prev'><a href='index.php?dossier=".$_GET['dossier'].$folder."/'>prev</a><br></div></div>";
                       }
 
                   else{
-                      echo "<div id='explorer'><div class='col-md-1 col-xs-2 col-sm-2'><img src='images/prev.png' id='prev'><a href='index.php'>prev</a><br></div></div>";
+                      echo "<div id='explorer'><div class='col-md-3 col-xs-3 col-sm-3'><img src='images/prev.png' id='prev'><a href='index.php'>prev</a><br></div></div>";
                   }
                 }
 
                 elseif ($folder == ".") {
-                  echo "<div id='explorer'><div class='col-md-1 col-xs-2 col-sm-2'><a href='index.php'><img src='images/home.png' id='home'>HOME</a><br></div></div>";
+                  echo "<div id='explorer'><div class='col-md-3 col-xs-3 col-sm-3'><a href='index.php'><img src='images/home.png' id='home'>home</a><br></div></div>";
                 }
 
                 else {
                   if (isset($_GET['dossier'])){
-                      echo "<div id='explorer'><div class='col-md-2 col-xs-3 col-sm-3'><img src='images/folder.png' id='folder'><a class='link' href='index.php?dossier=".$_GET['dossier'].$folder."/'>$folder</a><br></div></div>";
+                      echo "<div id='explorer'><div class='col-md-3 col-xs-3 col-sm-3'><img src='images/folder.png' id='folder'><a class='link' href='index.php?dossier=".$_GET['dossier'].$folder."/'>$folder</a><br></div></div>";
                       }
                   else {
 
-                  echo "<div id='explorer'><div class='col-md-2 col-xs-3 col-sm-3'><a class='link' href='index.php?dossier=$folder/'><img src='images/folder.png' id='folder'>$folder</a><br></div></div>";
+                  echo "<div id='explorer'><div class='col-md-3 col-xs-3 col-sm-3'><a class='link' href='index.php?dossier=$folder/'><img src='images/folder.png' id='folder'>$folder</a><br></div></div>";
                   }
                 }
 
