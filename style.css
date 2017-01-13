@@ -1,10 +1,10 @@
 body{
-  display: inline-block;
+
   background-color: white;
 }
 
 img{
-  display: inline-block;
+
 }
 
 a {
@@ -13,9 +13,9 @@ a {
 
 a:hover {
   text-decoration: none;
-  background-color:
+  background-color: yellow;
 }
 
-img folder{
-  height: 50%;
+.explorer{
+  display: inline-block;
 }
