@@ -1,6 +1,6 @@
 body{
 
-  background-color: white;
+  background-color: #849296;
 }
 
 img{
@@ -13,9 +13,21 @@ a {
 
 a:hover {
   text-decoration: none;
-  background-color: yellow;
+  background-color: lightblue;
 }
 
-.explorer{
-  display: inline-block;
+#file{
+  display: block;
+}
+
+#folder{
+  display: block;
+}
+
+#home{
+  display: block;
+}
+
+#prev{
+  display: block;
 }
